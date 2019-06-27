@@ -1,0 +1,30 @@
+
+com:
+  user:
+    id: 1
+    name: 张三
+    password: 123
+    like:
+      - 唱
+      - 跳
+      - 篮球
+    map:
+      key: valu
+      key2: value
+spring:
+  datasource:
+    url: jdbc:mysql:///:1903_java
+    password: 123
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+server:
+  port: 88
+  servlet:
+    context-path: /a
+comx:
+  cname: 张三
